@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function ()
     parallaxElements.forEach(element => {
       const speed = element.getAttribute('data-speed');
       const offset = window.pageYOffset * speed;
-      element.style.transform = translateY(${offset}px);
+      element.style.transform = translateY('${offset}px');
     });
   });
   
