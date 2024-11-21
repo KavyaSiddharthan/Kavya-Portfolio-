@@ -1,1 +1,16 @@
 
+/assets
+  /images
+    - ![Profile](<Kavya's profile.jpg>)
+    - ![Project 1](MedBot.jpg)
+    - 
+    - project3.jpg
+    - ... (Add more images as needed)
+  /fonts
+    - sour-gummy.ttf
+    - silkscreen.ttf
+    - pacifico.ttf
+  /icons
+    - icon1.svg
+    - icon2.svg
+    - icon3.svg
