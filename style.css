@@ -1,6 +1,5 @@
-/* Importing Google Fonts for Silkscreen, Sour Gummy, and Handwritten Font */
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&family=Silkscreen&family=Pacifico&display=swap');
-
+/* Importing Google Fonts for Silkscreen, Lacquer, and Handwritten Font */
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Silkscreen&family=Pacifico&display=swap');
 /* General Styles */
 body {
   font-family: 'Silkscreen', sans-serif;

@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () 
+{
     // Loader Section
     const loader = document.querySelector('.loading');
     const profileSection = document.querySelector('.profile'); // Assuming the profile section has class 'profile'
@@ -10,12 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Smooth Scrolling for Sidebar Links
     const sidebarLinks = document.querySelectorAll('#sidebar a');
-    sidebarLinks.forEach(link => {
+    sidebarLinks.forEach(link => 
+        {
       link.addEventListener('click', function (e) {
         e.preventDefault();
         const targetId = this.getAttribute('href').substring(1);
         const targetSection = document.getElementById(targetId);
-        window.scrollTo({
+        window.scrollTo
+        ({
           top: targetSection.offsetTop,
           behavior: 'smooth'
         });
@@ -36,7 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
       threshold: 0.1
     });
   
-    sections.forEach(section => {
+    sections.forEach(section => 
+    {
       observer.observe(section);
     });
   
